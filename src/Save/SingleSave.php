@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Save;
+namespace lucastsudaka\Laravel\ChunkUpload\Save;
 
 class SingleSave extends AbstractSave
 {

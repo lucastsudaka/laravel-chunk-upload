@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload;
+namespace lucastsudaka\Laravel\ChunkUpload;
 
-use Lucastsudaka\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use lucastsudaka\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
 
 class FileMerger
 {

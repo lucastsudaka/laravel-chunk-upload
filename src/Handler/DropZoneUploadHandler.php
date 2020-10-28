@@ -1,11 +1,11 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Handler;
+namespace lucastsudaka\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
-use Lucastsudaka\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
+use lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
+use lucastsudaka\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
 
 class DropZoneUploadHandler extends ChunksInRequestUploadHandler
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Save;
+namespace lucastsudaka\Laravel\ChunkUpload\Save;
 
 use Illuminate\Http\UploadedFile;
-use Lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
-use Lucastsudaka\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Lucastsudaka\Laravel\ChunkUpload\FileMerger;
-use Lucastsudaka\Laravel\ChunkUpload\Handler\AbstractHandler;
-use Lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
+use lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
+use lucastsudaka\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use lucastsudaka\Laravel\ChunkUpload\FileMerger;
+use lucastsudaka\Laravel\ChunkUpload\Handler\AbstractHandler;
+use lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
 use Symfony\Component\HttpKernel\Kernel as SymfonyKernel;
 
 class ChunkSave extends AbstractSave

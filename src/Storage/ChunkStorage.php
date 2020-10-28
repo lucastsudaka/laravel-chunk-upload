@@ -1,13 +1,13 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Storage;
+namespace lucastsudaka\Laravel\ChunkUpload\Storage;
 
 use Illuminate\Contracts\Filesystem\Filesystem as FilesystemContract;
 use Illuminate\Support\Collection;
 use League\Flysystem\Adapter\Local;
 use League\Flysystem\FilesystemInterface;
-use Lucastsudaka\Laravel\ChunkUpload\ChunkFile;
-use Lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
+use lucastsudaka\Laravel\ChunkUpload\ChunkFile;
+use lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
 use RuntimeException;
 
 class ChunkStorage

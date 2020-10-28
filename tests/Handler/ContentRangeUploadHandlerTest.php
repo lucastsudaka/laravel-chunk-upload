@@ -5,9 +5,9 @@ namespace ChunkTests\Handler;
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use PHPUnit\Framework\TestCase;
-use Lucastsudaka\Laravel\ChunkUpload\Config\FileConfig;
-use Lucastsudaka\Laravel\ChunkUpload\Exceptions\ContentRangeValueToLargeException;
-use Lucastsudaka\Laravel\ChunkUpload\Handler\ContentRangeUploadHandler;
+use lucastsudaka\Laravel\ChunkUpload\Config\FileConfig;
+use lucastsudaka\Laravel\ChunkUpload\Exceptions\ContentRangeValueToLargeException;
+use lucastsudaka\Laravel\ChunkUpload\Handler\ContentRangeUploadHandler;
 
 class ContentRangeUploadHandlerTest extends TestCase
 {

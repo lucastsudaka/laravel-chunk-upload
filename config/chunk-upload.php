@@ -35,7 +35,7 @@ return [
         'custom' => [],
         // Overrides the list of handlers - use only what you really want
         'override' => [
-            // \Lucastsudaka\Laravel\ChunkUpload\Handler\DropZoneUploadHandler::class
+            // \lucastsudaka\Laravel\ChunkUpload\Handler\DropZoneUploadHandler::class
         ],
     ],
 ];

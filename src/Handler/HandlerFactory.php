@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Handler;
+namespace lucastsudaka\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 

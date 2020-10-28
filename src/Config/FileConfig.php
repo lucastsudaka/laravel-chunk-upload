@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Config;
+namespace lucastsudaka\Laravel\ChunkUpload\Config;
 
 /**
  * Class FileConfig.

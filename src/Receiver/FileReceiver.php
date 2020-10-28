@@ -1,16 +1,16 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Receiver;
+namespace lucastsudaka\Laravel\ChunkUpload\Receiver;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
-use Lucastsudaka\Laravel\ChunkUpload\Exceptions\UploadFailedException;
-use Lucastsudaka\Laravel\ChunkUpload\Handler\AbstractHandler;
-use Lucastsudaka\Laravel\ChunkUpload\Save\AbstractSave;
-use Lucastsudaka\Laravel\ChunkUpload\Save\ChunkSave;
-use Lucastsudaka\Laravel\ChunkUpload\Save\SingleSave;
-use Lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
+use lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
+use lucastsudaka\Laravel\ChunkUpload\Exceptions\UploadFailedException;
+use lucastsudaka\Laravel\ChunkUpload\Handler\AbstractHandler;
+use lucastsudaka\Laravel\ChunkUpload\Save\AbstractSave;
+use lucastsudaka\Laravel\ChunkUpload\Save\ChunkSave;
+use lucastsudaka\Laravel\ChunkUpload\Save\SingleSave;
+use lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 class FileReceiver
 {

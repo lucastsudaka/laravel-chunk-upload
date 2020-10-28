@@ -1,12 +1,12 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Handler;
+namespace lucastsudaka\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
-use Lucastsudaka\Laravel\ChunkUpload\Save\AbstractSave;
-use Lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
+use lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
+use lucastsudaka\Laravel\ChunkUpload\Save\AbstractSave;
+use lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
 use Session;
 
 /**

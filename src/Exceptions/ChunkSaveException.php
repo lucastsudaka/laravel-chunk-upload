@@ -1,6 +1,6 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Exceptions;
+namespace lucastsudaka\Laravel\ChunkUpload\Exceptions;
 
 class ChunkSaveException extends \Exception
 {

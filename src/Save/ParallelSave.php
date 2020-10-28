@@ -1,17 +1,17 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Save;
+namespace lucastsudaka\Laravel\ChunkUpload\Save;
 
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Str;
-use Lucastsudaka\Laravel\ChunkUpload\ChunkFile;
-use Lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
-use Lucastsudaka\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Lucastsudaka\Laravel\ChunkUpload\Exceptions\MissingChunkFilesException;
-use Lucastsudaka\Laravel\ChunkUpload\FileMerger;
-use Lucastsudaka\Laravel\ChunkUpload\Handler\AbstractHandler;
-use Lucastsudaka\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
-use Lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
+use lucastsudaka\Laravel\ChunkUpload\ChunkFile;
+use lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
+use lucastsudaka\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use lucastsudaka\Laravel\ChunkUpload\Exceptions\MissingChunkFilesException;
+use lucastsudaka\Laravel\ChunkUpload\FileMerger;
+use lucastsudaka\Laravel\ChunkUpload\Handler\AbstractHandler;
+use lucastsudaka\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
+use lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class ParallelSave.

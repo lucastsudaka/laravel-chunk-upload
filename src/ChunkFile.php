@@ -1,8 +1,8 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload;
+namespace lucastsudaka\Laravel\ChunkUpload;
 
-use Lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
+use lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class Chunk.

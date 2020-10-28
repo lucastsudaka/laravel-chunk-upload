@@ -1,13 +1,13 @@
 <?php
 
-namespace Lucastsudaka\Laravel\ChunkUpload\Handler;
+namespace lucastsudaka\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
-use Lucastsudaka\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
-use Lucastsudaka\Laravel\ChunkUpload\Save\ChunkSave;
-use Lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
+use lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
+use lucastsudaka\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
+use lucastsudaka\Laravel\ChunkUpload\Save\ChunkSave;
+use lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class ChunksInRequestUploadHandler.
