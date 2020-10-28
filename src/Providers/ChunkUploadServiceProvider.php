@@ -1,18 +1,18 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Providers;
+namespace Lucastsudaka\Laravel\ChunkUpload\Providers;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\ServiceProvider;
-use Pion\Laravel\ChunkUpload\Commands\ClearChunksCommand;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Config\FileConfig;
-use Pion\Laravel\ChunkUpload\Handler\HandlerFactory;
-use Pion\Laravel\ChunkUpload\Receiver\FileReceiver;
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use Lucastsudaka\Laravel\ChunkUpload\Commands\ClearChunksCommand;
+use Lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
+use Lucastsudaka\Laravel\ChunkUpload\Config\FileConfig;
+use Lucastsudaka\Laravel\ChunkUpload\Handler\HandlerFactory;
+use Lucastsudaka\Laravel\ChunkUpload\Receiver\FileReceiver;
+use Lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 class ChunkUploadServiceProvider extends ServiceProvider
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload\Handler;
+namespace Lucastsudaka\Laravel\ChunkUpload\Handler;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
-use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
-use Pion\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
+use Lucastsudaka\Laravel\ChunkUpload\Config\AbstractConfig;
+use Lucastsudaka\Laravel\ChunkUpload\Handler\Traits\HandleParallelUploadTrait;
 
 class ResumableJSUploadHandler extends ChunksInRequestUploadHandler
 {

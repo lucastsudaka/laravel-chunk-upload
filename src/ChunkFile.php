@@ -1,8 +1,8 @@
 <?php
 
-namespace Pion\Laravel\ChunkUpload;
+namespace Lucastsudaka\Laravel\ChunkUpload;
 
-use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+use Lucastsudaka\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 /**
  * Class Chunk.
